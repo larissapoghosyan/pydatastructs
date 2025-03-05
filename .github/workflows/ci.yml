@@ -175,7 +175,6 @@ jobs:
       - name: Setup conda
         uses: s-weigand/setup-conda@v1.2.3
         with:
-          update-conda: true
           python-version: ${{ matrix.python-version }}
           conda-channels: anaconda, conda-forge
       - run: conda --version
