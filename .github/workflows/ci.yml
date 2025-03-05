@@ -5,6 +5,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  # also manually
+  workflow_dispatch:
 
 jobs:
   test-ubuntu-py38:
